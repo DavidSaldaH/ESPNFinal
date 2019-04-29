@@ -5,7 +5,7 @@ Feature: login
 
   @Login1
   Scenario Outline:Succesful login
-    Given I'm on the ESPN home page on url "www.ESPN.com"
+    Given I'm on the ESPN home page on url "http://espndeportes.espn.com"
     When I click on Registrar button
     And I fill in Username with "<Username>"
     And I fill in Password with "<Password>"

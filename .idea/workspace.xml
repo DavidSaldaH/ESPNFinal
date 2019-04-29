@@ -2,72 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd06a1b-2b1a-45fc-a983-a91828468986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer_20160924_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_masterthought_cucumber_reporting_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_tools_velocity_tools_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/logs/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/Suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/logout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/unregister.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/espn_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/espn_final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,16 +21,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -95,26 +37,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="72">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="442">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,14 +61,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="459">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,12 +91,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="72">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,13 +133,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/globant/espn_final/Suite.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java" />
       </list>
     </option>
   </component>
@@ -211,70 +158,93 @@
         <subPane>
           <expand>
             <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="espn_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="espn_final" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsdefs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,9 +256,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/globant/espn_final" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Academy5/academy5" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TESTNG SELENIUM AND CUCUMBER" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -334,63 +309,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556293993169</updated>
+      <workItem from="1556465753623" duration="8386000" />
+      <workItem from="1556495816195" duration="6037000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 23m 15s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 19h 37m 43s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 28m 01s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 22h 49m 57s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 30m 33s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 22h 53m 21s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 32m 37s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 10m 54s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 32m 55s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 11m 38s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 40m 52s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 13m 49s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 42m 25s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 20m 22s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 15h 51m 24s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 20m 51s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 16h 00m 09s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 26m 42s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.27 at 16h 05m 39s.xml">
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.04.28 at 23h 29m 13s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14423000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120079525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7939609" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.79345286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32969603" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -399,34 +381,32 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/logout.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -439,6 +419,13 @@
     <entry file="file://$PROJECT_DIR$/resources/logs/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/Suite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -448,54 +435,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="459">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/BaseStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="527">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/drivers/MyDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="442">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,9 +509,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>espn_final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

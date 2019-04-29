@@ -2,6 +2,7 @@ package com.globant.espn_final.stepsdefs;
 
 import com.globant.espn_final.drivers.MyDriver;
 import com.globant.espn_final.pages.BasePage;
+import com.globant.espn_final.pages.EspnHomePage;
 import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -10,34 +11,26 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Parameters;
 
-public class LoginSteps {
-
-    BasePage base;
-    MyDriver driver;
+public class LoginSteps extends MyDriver {
+    private EspnHomePage base;
 
     @Before
     public void before() {
-        driver = new MyDriver("chrome");
-        base = new BasePage(driver.getWebDriver());
-    }
-
-    @After
-    public void after(Scenario scenario) {
-        base.dispose();
-        if (scenario.isFailed()) {
-            System.out.println("================ Test Fallo ===============");
-        } else {
-            System.out.println("================ Test Paso ================");
-        }
+        WebDriver driver = buildDriver("chrome");
+        base = new EspnHomePage(driver);
     }
 
     @Given("^I'm on the ESPN home page on url \"([^\"]*)\"$")
     public void iMOnTheESPNHomePageOnUrl(String url) {
+        base.goTo(url);
+        System.out.println(url);
         base.prueba();
     }
 
+    /*
     @When("^I click on Registrar button$")
     public void iClickOnRegistrarButton() {
         base.prueba();
@@ -70,5 +63,5 @@ public class LoginSteps {
     public void iShouldSeeWelcomeMessage(String arg0) {
         base.prueba();
         throw new PendingException();
-    }
+    } */
 }
