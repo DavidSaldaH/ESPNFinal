@@ -1,6 +1,6 @@
 package com.globant.espn_final.stepsdefs;
 
-import com.globant.espn_final.utilities.StepsUtil;
+import stepsUtil.StepsUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,42 +15,42 @@ public class RegisterSteps extends StepsUtil {
 
     @Given("^I'm on the ESPN home page \"([^\"]*)\"$")
     public void iMOnTheESPNHomePage(String url) {
-        espn.goTo(url);
+        sUtil.espn.goTo(url);
     }
 
     @When("^I click on Registrarse button$")
     public void iClickOnRegistrarseButton() {
-        espn.registrarButonRegister();
+        sUtil.espn.registrarButonRegister();
     }
 
     @And("^I fill in Name with \"([^\"]*)\"$")
     public void iFillInNameWith(String name) {
-        espn.inputNameRegister(name);
+        sUtil.espn.inputNameRegister(name);
     }
 
     @And("^I fill in LastName with \"([^\"]*)\"$")
     public void iFillInLastNameWith(String lastName) {
-        espn.inputLastnameRegister(lastName);
+        sUtil.espn.inputLastnameRegister(lastName);
     }
 
     @And("^I fill in Email with \"([^\"]*)\"$")
     public void iFillInEmailWith(String email) {
-        espn.inputEmailRegister(email);
+        sUtil.espn.inputEmailRegister(email);
     }
 
     @And("^Fill in Password with \"([^\"]*)\"$")
     public void fillInPasswordWith(String password) {
-        espn.inputPasswordRegister(password);
+        sUtil.espn.inputPasswordRegister(password);
     }
 
     @And("^I click on Registrate button$")
     public void iClickOnRegistrateButton() {
-        espn.clickRegistrarteButtonRegister();
+        sUtil.espn.clickRegistrarteButtonRegister();
     }
 
     @And("^I verify on User icon$")
     public void iVerifyOnUserIcon() {
-        espn.clickUserIcon();
+        sUtil.espn.clickUserIcon();
     }
 
     @Then("^I should see the Welcome \"([^\"]*)\" message$")

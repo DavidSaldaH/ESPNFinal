@@ -1,7 +1,9 @@
 package com.globant.espn_final.stepsdefs;
 
+import com.globant.espn_final.drivers.MyDriver;
 import com.globant.espn_final.pages.EspnHomePage;
-import com.globant.espn_final.utilities.StepsUtil;
+import cucumber.api.java.After;
+import stepsUtil.StepsUtil;
 import cucumber.api.java.Before;
 
 public class BaseStep extends StepsUtil {
@@ -14,6 +16,13 @@ public class BaseStep extends StepsUtil {
 
     @Before
     public void before() {
-        sUtil.espn = new EspnHomePage(sUtil.driver.getWebDriver());
+        MyDriver driver = new MyDriver(System.getProperty("browser"));
+        sUtil.driver = driver.getWebDriver();
+        sUtil.espn = new EspnHomePage(sUtil.driver);
+    }
+
+    @After
+    public void after() {
+        sUtil.espn.dispose();
     }
 }

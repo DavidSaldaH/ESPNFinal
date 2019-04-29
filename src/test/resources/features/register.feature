@@ -16,4 +16,4 @@ Feature: Register
 
     Scenarios:
       | Name | LastName | Email        | Password     |
-      | cgst | 123      | cgst@123.com | cgst@123 |
+      | pru3b11 | 123      | pru3b11@123.com | pru3b11@123 |

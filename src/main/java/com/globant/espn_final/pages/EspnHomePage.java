@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class EspnHomePage extends BasePage {
     public EspnHomePage(WebDriver pDriver) {
@@ -35,8 +36,10 @@ public class EspnHomePage extends BasePage {
     /*Generals*/
 
     public void clickUserIcon() {
-        getWait().until(ExpectedConditions.elementToBeClickable(userIcon));
-        userIcon.click();
+        System.out.println("Probando");
+       /* WebDriverWait wait = new WebDriverWait(getWebDriver(), 10);
+        wait.until(ExpectedConditions.elementToBeClickable(userIcon));
+        userIcon.click(); */
     }
 
     public void welcomeMessage() {

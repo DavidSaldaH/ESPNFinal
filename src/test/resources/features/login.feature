@@ -1,4 +1,4 @@
-@ESPN
+@Login
 Feature: login
   As a regitered user
   I want to login.
@@ -14,5 +14,5 @@ Feature: login
     Then I should see Welcome "username" message
 
     Scenarios:
-      | Username | Password |
-      | dsh@123.com  | dsh@123 |
+      | Username        | Password    |
+      | pru3b11@123.com | pru3b11@123 |

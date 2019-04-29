@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"com.globant.espn_final.stepsdefs"},
-        tags = {"@Register1"},
+        tags = {"@Register1,@Login1"},
         format = {
                 "pretty"
         })
