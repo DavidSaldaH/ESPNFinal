@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"com.globant.espn_final.stepsdefs"},
-        tags = {"@Login1"},
+        tags = {"@Register1"},
         format = {
                 "pretty"
         })
@@ -17,12 +17,14 @@ public class TestRunner {
 
     private TestNGCucumberRunner testNGCucumberRunner;
 
+    @Parameters({"browser"})
     @BeforeClass(alwaysRun = true)
-    public void beforeClass() {
+    public void beforeClass(String browser) {
+        System.setProperty("browser", browser);
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
 
-    @Test(groups = "@Login1", description = "Runs Cucumber Feature", dataProvider = "features")
+    @Test(groups = "@Register1", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(CucumberFeatureWrapper cucumberFeature) {
         testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
     }

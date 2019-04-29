@@ -11,11 +11,11 @@ public class MyDriver {
     public MyDriver(String browser) {
         switch (browser) {
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "resources/drivers/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "./resources/drivers/geckodriver.exe");
                 webDriver = new FirefoxDriver();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\Proyectos\\TAE\\GlobalElements\\chromedriver72.exe");
+                System.setProperty("webdriver.chrome.driver", "./resources/drivers/chromedriver72.exe");
                 webDriver = new ChromeDriver();
                 break;
         }

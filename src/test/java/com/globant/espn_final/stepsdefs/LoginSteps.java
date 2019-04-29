@@ -1,74 +1,51 @@
 package com.globant.espn_final.stepsdefs;
 
-import com.globant.espn_final.drivers.MyDriver;
-import com.globant.espn_final.pages.BasePage;
-import cucumber.api.PendingException;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import com.globant.espn_final.pages.EspnHomePage;
+import com.globant.espn_final.utilities.StepsUtil;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.testng.annotations.Parameters;
 
-public class LoginSteps {
+public class LoginSteps extends StepsUtil {
+    private StepsUtil sUtil;
 
-    BasePage base;
-    MyDriver driver;
-
-    @Before
-    public void before() {
-        driver = new MyDriver("chrome");
-        base = new BasePage(driver.getWebDriver());
-    }
-
-    @After
-    public void after(Scenario scenario) {
-        base.dispose();
-        if (scenario.isFailed()) {
-            System.out.println("================ Test Fallo ===============");
-        } else {
-            System.out.println("================ Test Paso ================");
-        }
+    public LoginSteps(StepsUtil sUtil) {
+        this.sUtil = sUtil;
     }
 
     @Given("^I'm on the ESPN home page on url \"([^\"]*)\"$")
     public void iMOnTheESPNHomePageOnUrl(String url) {
-        base.prueba();
+        espn.goTo(url);
     }
 
-    @When("^I click on Registrar button$")
+    @When("^I click on Entrar button$")
     public void iClickOnRegistrarButton() {
-        base.prueba();
+        espn.clickEntrarButtonLogin();
     }
 
     @And("^I fill in Username with \"([^\"]*)\"$")
-    public void iFillInUsernameWith(String arg0) {
-        base.prueba();
-        throw new PendingException();
+    public void iFillInUsernameWith(String username) {
+        espn.usernmeInputLogin(username);
     }
 
     @And("^I fill in Password with \"([^\"]*)\"$")
-    public void iFillInPasswordWith(String arg0) {
-        base.prueba();
-        throw new PendingException();
+    public void iFillInPasswordWith(String password) {
+        espn.passwordInutLogin(password);
     }
 
     @And("^I click on Conctate button$")
     public void iClickOnConctateButton() {
-        base.prueba();
-
+        espn.clickConectateButtonLogin();
     }
 
     @And("^I click on User icon$")
     public void iClickOnUserIcon() {
-        base.prueba();
+        espn.clickUserIcon();
     }
 
     @Then("^I should see Welcome \"([^\"]*)\" message$")
     public void iShouldSeeWelcomeMessage(String arg0) {
-        base.prueba();
-        throw new PendingException();
+        espn.welcomeMessage();
     }
 }

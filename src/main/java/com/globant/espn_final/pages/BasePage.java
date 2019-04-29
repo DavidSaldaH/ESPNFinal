@@ -19,8 +19,8 @@ public class BasePage {
         }
     }
 
-    public void prueba(){
-        System.out.println("probando");
+    public void goTo(String url) {
+        webDriver.get(url);
     }
 
     public WebDriver getWebDriver() {
