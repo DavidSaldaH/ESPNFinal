@@ -2,8 +2,8 @@
 Feature: Register
   As a client wants to register.
 
-@Register1
-  Scenario Outline:Succesful register
+  @Register
+  Scenario Outline:Successful register
     Given I'm on the ESPN home page " http://www.espn.com/?src=com&_adblock=true"
     When I click on Registrarse button
     And I fill in Name with "<Name>"
@@ -15,5 +15,5 @@ Feature: Register
     Then I should see the Welcome "username" message
 
     Scenarios:
-      | Name | LastName | Email        | Password     |
+      | Name    | LastName | Email           | Password    |
       | pru3b11 | 123      | pru3b11@123.com | pru3b11@123 |

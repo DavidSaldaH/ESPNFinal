@@ -33,7 +33,22 @@ public class EspnHomePage extends BasePage {
     @FindBy(xpath = "//*[@id=\"global-viewport\"]/div[3]/div[1]/ul[1]/li[1]")
     private WebElement welcomeMessage;
 
+    @FindBy(xpath = "//*[@id=\"global-header\"]/div[2]/ul/li[2]/div/div[1]/ul[1]/li[8]/a")
+    private WebElement logoutButton;
+
+    @FindBy(xpath = "//*[@id=\"global-header\"]/div[2]/ul/li[2]/div/div[1]/ul[1]/li[4]/a")
+    private WebElement profileButon;
+
     /*Generals*/
+
+    public void loginByDefault() {
+        entrarButton.click();
+        getWebDriver().switchTo().frame(loginIframe);
+        emailInputLoginIframe.sendKeys("pru3b11@123.com");
+        passwordInputLoginIframe.sendKeys("pru3b11@123");
+        conectateButtonLoginIframe.click();
+        getWebDriver().switchTo().defaultContent();
+    }
 
     public void clickUserIcon() {
         System.out.println("Probando");
@@ -95,4 +110,27 @@ public class EspnHomePage extends BasePage {
         getWebDriver().switchTo().defaultContent();
     }
 
+    // Logout
+    public void clickOnLogoutButton() {
+        logoutButton.click();
+    }
+
+    //Deactivate
+
+    public void clickOnProfileButton() {
+        profileButon.click();
+        getWebDriver().switchTo().frame("disneyid-iframe");
+    }
+
+    public void validateIframe() {
+        getWebDriver().switchTo().frame("disneyid-iframe");
+    }
+
+    public void deleteAcount() {
+        getWebDriver().findElement(By.xpath("//*[@id=\"cancel-account\"]")).click();
+    }
+
+    public void deleteButtonConfirm() {
+        getWebDriver().findElement(By.xpath("//*[@id=\"did-ui-view\"]/div/section/section/div[2]/button[1]")).click();
+    }
 }
