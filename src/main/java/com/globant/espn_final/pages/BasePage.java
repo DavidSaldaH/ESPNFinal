@@ -11,6 +11,7 @@ public class BasePage {
     public BasePage(WebDriver pDriver) {
         PageFactory.initElements(pDriver, this);
         webDriver = pDriver;
+        wait = new WebDriverWait(webDriver, 10);
     }
 
     public void dispose() {

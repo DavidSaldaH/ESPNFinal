@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"com.globant.espn_final.stepsdefs"},
-        tags = {"@Login,@Register,@Loguot,@Deactivate"},
+        tags = {"@Deactivate"},
         format = {
                 "pretty"
         })
@@ -24,7 +24,7 @@ public class TestRunner {
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
 
-    @Test(groups = "@Login,@Register,@Loguot,@Deactivate", description = "Runs Cucumber Feature", dataProvider = "features")
+    @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(CucumberFeatureWrapper cucumberFeature) {
         testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
     }

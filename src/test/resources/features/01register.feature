@@ -1,8 +1,7 @@
-@ESPN
+@Register
 Feature: Register
   As a client wants to register.
 
-  @Register
   Scenario Outline:Successful register
     Given I'm on the ESPN home page " http://www.espn.com/?src=com&_adblock=true"
     When I click on Registrarse button
@@ -16,4 +15,4 @@ Feature: Register
 
     Scenarios:
       | Name    | LastName | Email           | Password    |
-      | pru3b11 | 123      | pru3b11@123.com | pru3b11@123 |
+      | pru3b333 | 333      | pru3b333@333.com | pru3b333@333 |

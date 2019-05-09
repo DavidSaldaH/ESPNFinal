@@ -3,7 +3,6 @@ Feature: login
   As a regitered user
   I want to login.
 
-  @Login
   Scenario Outline:Successful login
     Given I'm on the ESPN home page on url " http://www.espn.com/?src=com&_adblock=true"
     When I click on Entrar button
@@ -15,4 +14,4 @@ Feature: login
 
     Scenarios:
       | Username        | Password    |
-      | pru3b11@123.com | pru3b11@123 |
+      | pru3b100@1200.com | pru3b100@1200 |

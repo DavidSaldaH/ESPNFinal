@@ -1,11 +1,16 @@
 package com.globant.espn_final.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class EspnHomePage extends BasePage {
     public EspnHomePage(WebDriver pDriver) {
@@ -41,20 +46,17 @@ public class EspnHomePage extends BasePage {
 
     /*Generals*/
 
-    public void loginByDefault() {
+    public void loginByDefault(String email, String password) {
         entrarButton.click();
         getWebDriver().switchTo().frame(loginIframe);
-        emailInputLoginIframe.sendKeys("pru3b11@123.com");
-        passwordInputLoginIframe.sendKeys("pru3b11@123");
+        emailInputLoginIframe.sendKeys(email);
+        passwordInputLoginIframe.sendKeys(password);
         conectateButtonLoginIframe.click();
-        getWebDriver().switchTo().defaultContent();
     }
 
     public void clickUserIcon() {
-        System.out.println("Probando");
-       /* WebDriverWait wait = new WebDriverWait(getWebDriver(), 10);
-        wait.until(ExpectedConditions.elementToBeClickable(userIcon));
-        userIcon.click(); */
+        getWait().until(ExpectedConditions.elementToBeClickable(userIcon));
+        userIcon.click();
     }
 
     public void welcomeMessage() {
@@ -78,7 +80,6 @@ public class EspnHomePage extends BasePage {
 
     public void clickConectateButtonLogin() {
         conectateButtonLoginIframe.click();
-        getWebDriver().switchTo().defaultContent();
     }
 
 
@@ -107,7 +108,6 @@ public class EspnHomePage extends BasePage {
 
     public void clickRegistrarteButtonRegister() {
         getWebDriver().findElement(By.xpath("//*[@id=\"did-ui-view\"]/div/section/section/form/section[6]/div/button")).click();
-        getWebDriver().switchTo().defaultContent();
     }
 
     // Logout
@@ -122,12 +122,15 @@ public class EspnHomePage extends BasePage {
         getWebDriver().switchTo().frame("disneyid-iframe");
     }
 
-    public void validateIframe() {
-        getWebDriver().switchTo().frame("disneyid-iframe");
+    public void deleteAcount() {
+        JavascriptExecutor je = (JavascriptExecutor) getWebDriver();
+        WebElement dlt = getWebDriver().findElement(By.id("cancel-account"));
+        je.executeScript("arguments[0].scrollIntoView(true);", dlt);
+        dlt.click();
     }
 
-    public void deleteAcount() {
-        getWebDriver().findElement(By.xpath("//*[@id=\"cancel-account\"]")).click();
+    public void okButton() {
+        getWebDriver().findElement(By.xpath("//*[@id=\"did-ui-view\"]/div/section/section/div[2]/button")).click();
     }
 
     public void deleteButtonConfirm() {

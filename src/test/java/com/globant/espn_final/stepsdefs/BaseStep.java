@@ -19,6 +19,7 @@ public class BaseStep extends StepsUtil {
         MyDriver driver = new MyDriver(System.getProperty("browser"));
         sUtil.driver = driver.getWebDriver();
         sUtil.espn = new EspnHomePage(sUtil.driver);
+        sUtil.espn.getWebDriver().manage().window().maximize();
     }
 
     @After

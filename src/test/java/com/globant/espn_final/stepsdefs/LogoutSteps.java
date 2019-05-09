@@ -1,5 +1,6 @@
 package com.globant.espn_final.stepsdefs;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,10 +14,10 @@ public class LogoutSteps extends StepsUtil {
         this.sUtil = sUtil;
     }
 
-    @Given("^I'm on espn home page \"([^\"]*)\" already logged$")
-    public void iMOnEspnHomePageAlreadyLogged(String url) {
+    @Given("^I'm on espn home page \"([^\"]*)\" already logged \"([^\"]*)\" \"([^\"]*)\"$")
+    public void iMOnEspnHomePageAlreadyLogged(String url, String email, String password) {
         sUtil.espn.goTo(url);
-        sUtil.espn.loginByDefault();
+        sUtil.espn.loginByDefault(email, password);
     }
 
     @When("^Move cursor over icon user$")
@@ -36,6 +37,6 @@ public class LogoutSteps extends StepsUtil {
 
     @Then("^Validate welcome message$")
     public void validateWelcomeMessage() {
-
+        sUtil.espn.welcomeMessage();
     }
 }

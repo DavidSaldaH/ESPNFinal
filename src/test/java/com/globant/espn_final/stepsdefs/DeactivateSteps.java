@@ -1,5 +1,6 @@
 package com.globant.espn_final.stepsdefs;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,10 +14,10 @@ public class DeactivateSteps extends StepsUtil {
         this.sUtil = sUtil;
     }
 
-    @Given("^On espn page \"([^\"]*)\" already logged$")
-    public void onEspnPageAlreadyLogged(String url) {
+    @Given("^On espn page \"([^\"]*)\" already logged \"([^\"]*)\" \"([^\"]*)\"$")
+    public void onEspnPageAlreadyLogged(String url, String email, String password) {
         sUtil.espn.goTo(url);
-        sUtil.espn.loginByDefault();
+        sUtil.espn.loginByDefault(email, password);
     }
 
     @When("^Click on user icon$")
@@ -29,11 +30,6 @@ public class DeactivateSteps extends StepsUtil {
         sUtil.espn.clickOnProfileButton();
     }
 
-    @Then("^Validate “Perfil de ESPN” modal$")
-    public void validatePerfilDeESPNModal() {
-        sUtil.espn.validateIframe();
-    }
-
     @When("^Click\\(\\) on “Eliminar cuenta” Link$")
     public void clickOnEliminarCuentaLink() {
         sUtil.espn.deleteAcount();
@@ -42,6 +38,11 @@ public class DeactivateSteps extends StepsUtil {
     @And("^Click\\(\\) on “Sí, eliminar esta cuenta\\.” button$")
     public void clickOnSíEliminarEstaCuentaButton() {
         sUtil.espn.deleteButtonConfirm();
+    }
+
+    @And("^Click\\(\\) on “Ok” button$")
+    public void clickOnOkButton() {
+        sUtil.espn.okButton();
     }
 
     @And("^Put cursor over icon user$")
