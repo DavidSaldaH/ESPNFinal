@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fd06a1b-2b1a-45fc-a983-a91828468986" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/espn_final/pages/EspnHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/DeactivateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/DeactivateSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/espn_final/stepsdefs/LogoutSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/01register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/01register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/02login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/02login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/03logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/03logout.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04deactivate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04deactivate.feature" afterDir="false" />
-    </list>
+    <list default="true" id="9fd06a1b-2b1a-45fc-a983-a91828468986" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -421,9 +410,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.05.10 at 11h 09m 57s.xml">
-      <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.05.10 at 11h 16m 22s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
@@ -449,6 +435,9 @@
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.05.10 at 12h 31m 32s.xml">
+      <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Proyectos_TAE_ESPNFinal_espn_final_src_main_java_com_globant_espn_final_Suite_xml - 2019.05.10 at 12h 34m 08s.xml">
       <configuration name="C:/Proyectos/TAE/ESPNFinal/espn_final/src/main/java/com/globant/espn_final/Suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -477,7 +466,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8987854" weight="0.45648313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8987854" visible="true" weight="0.45648313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46003553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
