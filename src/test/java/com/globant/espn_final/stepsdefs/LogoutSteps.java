@@ -20,7 +20,7 @@ public class LogoutSteps extends StepsUtil {
         sUtil.espn.loginByDefault(email, password);
     }
 
-    @When("^Move cursor over icon user$")
+    @When("^Click on user icon$")
     public void moveCursorOverIconUser() {
         sUtil.espn.clickUserIcon();
     }

@@ -2,8 +2,8 @@
 Feature: logout
 
   Scenario:logout successfull
-    Given I'm on espn home page " http://www.espn.com/?src=com&_adblock=true" already logged "pru3b100@1200.com" "pru3b100@1200"
-    When Move cursor over icon user
+    Given I'm on espn home page " http://www.espn.com/?src=com&_adblock=true" already logged "pru6b346@333.com" "pru5b333@333"
+    When Click on user icon
     And Click on “Salir” link
-    And Move cursor over user icon
+    And I verify on User icon
     Then Validate welcome message

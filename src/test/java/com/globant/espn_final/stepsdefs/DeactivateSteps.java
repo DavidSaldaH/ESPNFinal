@@ -14,17 +14,6 @@ public class DeactivateSteps extends StepsUtil {
         this.sUtil = sUtil;
     }
 
-    @Given("^On espn page \"([^\"]*)\" already logged \"([^\"]*)\" \"([^\"]*)\"$")
-    public void onEspnPageAlreadyLogged(String url, String email, String password) {
-        sUtil.espn.goTo(url);
-        sUtil.espn.loginByDefault(email, password);
-    }
-
-    @When("^Click on user icon$")
-    public void clickOnUserIcon() {
-        sUtil.espn.clickUserIcon();
-    }
-
     @And("^Click\\(\\) on “Perfil de ESPN” button$")
     public void clickOnPerfilDeESPNButton() {
         sUtil.espn.clickOnProfileButton();
@@ -40,13 +29,15 @@ public class DeactivateSteps extends StepsUtil {
         sUtil.espn.deleteButtonConfirm();
     }
 
+    /*
     @And("^Click\\(\\) on “Ok” button$")
     public void clickOnOkButton() {
         sUtil.espn.okButton();
-    }
+    }*/
 
-    @And("^Put cursor over icon user$")
-    public void putCursorOverIconUser() {
+    @And("^I'm verify on User icon$")
+    public void iMVerifyOnUserIcon() {
+        sUtil.espn.okButton();
         sUtil.espn.clickUserIcon();
     }
 

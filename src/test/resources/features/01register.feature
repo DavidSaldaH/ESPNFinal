@@ -15,4 +15,4 @@ Feature: Register
 
     Scenarios:
       | Name    | LastName | Email           | Password    |
-      | pru3b333 | 333      | pru3b333@333.com | pru3b333@333 |
+      | pru5b346 | 555      | pru6b346@333.com | pru5b333@333 |

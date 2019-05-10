@@ -9,9 +9,9 @@ Feature: login
     And I fill in Username with "<Username>"
     And I fill in Password with "<Password>"
     And I click on Conctate button
-    And I click on User icon
+    And I verify on User icon
     Then I should see Welcome "username" message
 
     Scenarios:
       | Username        | Password    |
-      | pru3b100@1200.com | pru3b100@1200 |
+      | pru6b346@333.com | pru5b333@333 |

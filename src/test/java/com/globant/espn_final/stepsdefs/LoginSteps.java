@@ -38,11 +38,6 @@ public class LoginSteps extends StepsUtil {
         sUtil.espn.clickConectateButtonLogin();
     }
 
-    @And("^I click on User icon$")
-    public void iClickOnUserIcon() {
-        sUtil.espn.clickUserIcon();
-    }
-
     @Then("^I should see Welcome \"([^\"]*)\" message$")
     public void iShouldSeeWelcomeMessage(String arg0) {
         sUtil.espn.welcomeMessage();

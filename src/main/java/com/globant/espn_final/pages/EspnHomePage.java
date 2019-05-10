@@ -123,14 +123,17 @@ public class EspnHomePage extends BasePage {
     }
 
     public void deleteAcount() {
-        JavascriptExecutor je = (JavascriptExecutor) getWebDriver();
         WebElement dlt = getWebDriver().findElement(By.id("cancel-account"));
-        je.executeScript("arguments[0].scrollIntoView(true);", dlt);
+        getWait().until(ExpectedConditions.elementToBeClickable(dlt));
+        ((JavascriptExecutor) getWebDriver()).executeScript("arguments[0].scrollIntoView(true);", dlt);
+        /*JavascriptExecutor je = (JavascriptExecutor) getWebDriver();
+        je.executeScript("arguments[0].scrollIntoView(true);", dlt);*/
+        getWait().until(ExpectedConditions.elementToBeClickable(dlt));
         dlt.click();
     }
 
     public void okButton() {
-        getWebDriver().findElement(By.xpath("//*[@id=\"did-ui-view\"]/div/section/section/div[2]/button")).click();
+        getWait().until(ExpectedConditions.elementToBeClickable(userIcon));
     }
 
     public void deleteButtonConfirm() {
